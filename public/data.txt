@@ -26,10 +26,10 @@ Payment details:
 Standard Bank 
 
 [{payment_info3}]
-ACC Number:123006705
+ACC Number: 046 -120-483
 
 [{payment_info4}]
-Branch Code:BOA447
+Branch Code: 050002
 
 [{payment_info5}]
 
