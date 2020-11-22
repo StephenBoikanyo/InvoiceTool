@@ -1,0 +1,109 @@
+@media only screen and (max-width: 865px) {
+  /* line 6, ../src/template/mobile.scss */
+  #memo .company-info {
+    width: auto;
+  }
+  /* line 10, ../src/template/mobile.scss */
+  #memo .payment-info {
+    float: none;
+    clear: both;
+    text-align: left;
+    padding-top: 15px;
+    width: auto;
+  }
+  /* line 17, ../src/template/mobile.scss */
+  #memo .payment-info div {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 3px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 30, ../src/template/mobile.scss */
+  #items table tr:after {
+    content: '';
+    display: block;
+    border-top: 1px solid #888;
+  }
+  /* line 36, ../src/template/mobile.scss */
+  #items table th {
+    display: none !important;
+  }
+  /* line 40, ../src/template/mobile.scss */
+  #items table td {
+    display: block;
+    width: auto;
+    text-align: left;
+  }
+  /* line 46, ../src/template/mobile.scss */
+  #items table td:first-child {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    text-indent: -9999px;
+  }
+
+  /* line 57, ../src/template/mobile.scss */
+  #sums {
+    float: none;
+    margin-top: 30px;
+    page-break-inside: avoid;
+  }
+  /* line 62, ../src/template/mobile.scss */
+  #sums table {
+    width: 100%;
+  }
+  /* line 66, ../src/template/mobile.scss */
+  #sums table tr th, #sums table tr td {
+    min-width: initial;
+    width: 50%;
+  }
+
+  /* line 74, ../src/template/mobile.scss */
+  .show-mobile {
+    display: inline !important;
+  }
+}
+@media only screen and (max-width: 730px) {
+  /* line 80, ../src/template/mobile.scss */
+  #invoice-info {
+    float: none;
+    width: auto;
+  }
+  /* line 84, ../src/template/mobile.scss */
+  #invoice-info > div {
+    width: 48%;
+  }
+
+  /* line 89, ../src/template/mobile.scss */
+  #client-info {
+    float: none;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 97, ../src/template/mobile.scss */
+  #memo .logo {
+    float: none;
+    margin-right: 0;
+  }
+  /* line 102, ../src/template/mobile.scss */
+  #memo .company-info {
+    float: none;
+    padding-top: 15px;
+    width: auto;
+  }
+  /* line 110, ../src/template/mobile.scss */
+  #memo .payment-info div {
+    display: block;
+    margin-bottom: 3px;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 380px) {
+  /* line 121, ../src/template/mobile.scss */
+  #invoice-info > div {
+    width: 45%;
+  }
+}
